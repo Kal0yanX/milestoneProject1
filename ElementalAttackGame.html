@@ -8,28 +8,36 @@
     <link rel="Stylesheet" href="assets/styles.css">
 </head>
 <body>
+
   <h1>Elemental Attack Game</h1>
-    <div class="container">
-      <img id="background" src="assets/photos/comic-background.jpg">
+      <h2>Computer Choice</h2>
 
-    <ul>
-      <div class="top">
-        <h3>Computer Choice: <span id="computer-choice"></span>
-        </h3>
+<div class="container">
+      <img src="assets/photos/comic-background.jpg">
+        <div class="topChoice">
+          <h3><span id="computer-choice"></span></h3> 
+        </div>
+
+        <div class="bottomChoice">
+        <h3><span id="user-choice"></span></h3>
+        </div>
+</div>
+
+
+        <h2>Your Choice</h2>
+
+
+
+        <div class="choices">
+          <button class="elements" id="water">Water Attack</button>
+          <button class="elements" id="earth">Earth Attack</button>
+          <button class="elements" id="fire">Fire Attack</button>
+        </div>
       </div>
 
-        <h2>Your Choice: <span id="user-choice"></span>
-        </h2>
-        
-        <h2>Result: <span id="result"></span>
-        </h2>
-
-        <button class="elements" id="water">Water Attack</button>
-        <button class="elements" id="earth">Earth Attack</button>
-        <button class="elements" id="fire">Fire Attack</button>
-      </div>
-  </ul>
-
+      <h2>
+        Result: <span id="result"></span>
+      </h2>
     <div>
       <h2>Scoreboard:</h2>
         <p id="scoreboard">Wins: 0 Losses: 0 Draws: 0</p>

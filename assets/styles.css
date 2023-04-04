@@ -9,8 +9,8 @@ h1 {
     text-align: center;
 }
 
-#background {
-    max-width: 400px;
+img {
+
     width: 100%;
     max-height: 600px;
 }
@@ -20,11 +20,22 @@ h1 {
     text-align: center;
 }
 
-.top{
+.topChoice{
     position: absolute;
-    width: 50%;
-    top: 0.5%;
+    float: right;
+    left: 75%;
+    top: 5%;
+}
 
+.bottomChoice{
+    position: absolute;
+    float: left;
+    left: 19%;
+    bottom: 14%;
+}
+
+.choices {
+    text-align: center;
 }
 
 h2 {
@@ -54,21 +65,21 @@ a.button{
 
 #water {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(183, 243, 243);
+    background-color: rgb(111, 237, 249);
     text-align: center;
 }
 #water:hover{
     color:#0004f9;
-    border: color #0004f9;;
+    border: color rgb(56, 128, 223);
     }
 
 #earth {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(162, 83, 47, 0.765);
+    background-color: rgb(246, 195, 67);;
 }
 #earth:hover{
-    color:#482400;
-    border: color #482400;;
+    color:rgb(225, 117, 45);
+    border: color rgb(255, 117, 45);
     }
 
 #fire {
@@ -76,10 +87,11 @@ a.button{
     background-color: rgb(255, 57, 57);
 }
 #fire:hover{
-    color:#ffe100;
+    color:rgb(250, 252, 140);
     border: color #ffe100;;
     }
 
 #scoreboard {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
