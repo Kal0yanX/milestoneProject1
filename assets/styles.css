@@ -1,37 +1,18 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    background-color: black
   }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 25px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 img {
-
-    width: 100%;
-    max-height: 600px;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-}
-
-.topChoice{
-    position: absolute;
-    float: right;
-    left: 75%;
-    top: 5%;
-}
-
-.bottomChoice{
-    position: absolute;
-    float: left;
-    left: 19%;
-    bottom: 14%;
+    height: 600px;
 }
 
 .choices {
@@ -41,7 +22,7 @@ img {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-
+    color: white;
 }
 
 button {
@@ -94,4 +75,33 @@ a.button{
 #scoreboard {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: #FFFFFF;
 }
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#computer-choice {
+    background-color: #FFFFFF;
+    position: absolute;
+    float: right;
+    left: 75%;
+    top: 5%;
+}
+
+#user-choice {
+    background-color: #FFFFFF;
+    position: absolute;
+    float: left;
+    left: 19%;
+    bottom: 14%;
+}
+
+.container{
+    max-width: 389px;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+}
+
