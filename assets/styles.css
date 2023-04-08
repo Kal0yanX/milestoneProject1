@@ -93,7 +93,6 @@ a.button{
 #user-choice {
     background-color: #FFFFFF;
     position: absolute;
-    float: left;
     left: 19%;
     bottom: 14%;
 }
@@ -105,3 +104,15 @@ a.button{
     margin: auto;
 }
 
+.user-pic {
+    position: absolute;
+    left: 37%;
+    bottom: 17%;
+}
+
+.comp-pic {
+    position: absolute;
+    left: 12%;
+    top: 10%;
+
+}

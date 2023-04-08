@@ -3,8 +3,8 @@ const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const scoreboard = document.getElementById('scoreboard')
 const possibleChoices = document.querySelectorAll('button')
-const earth = document.getElementById('earth')
-
+const imageContainer = document.getElementById('comp-image-container')
+const imageContainer2 = document.getElementById('user-image-container')
 let userChoice
 let computerChoice
 let wins = 0
@@ -17,6 +17,8 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   generateComputerChoice()
   getResult()
   updateScore()
+  compChoiceImage()
+  userChoiceImage()
 }))
 
 function generateComputerChoice() {
@@ -66,10 +68,33 @@ function getResult () {
     wins++
   }
   resultDisplay.innerHTML = result
-
-  
 }
 
 function updateScore() {
   scoreboard.innerHTML = `Wins: ${wins} Losses: ${losses} Draws: ${draws}`
 }
+
+function compChoiceImage() {
+  if (computerChoice === 'earth') {
+    imageContainer.innerHTML = `<img src="assets/photos/earth.jpg" alt="earth image" style="width: 200px; height: 150px;">`
+  } else if (computerChoice === 'water') {
+    imageContainer.innerHTML = `<img src="assets/photos/water.jpg" alt="water image" style="width: 200px; height: 150px;">`
+  } else if (computerChoice === 'fire') {
+    imageContainer.innerHTML = `<img src="assets/photos/fire.jpg" alt="fire image" style="width: 200px; height: 150px;">`
+  } else {
+    imageContainer.innerHTML = ''
+  }
+}
+
+function userChoiceImage() {
+  if (userChoice === 'earth') {
+    imageContainer2.innerHTML = `<img src="assets/photos/earth.jpg" alt="earth image" style="width: 200px; height: 150px;">`
+  } else if (userChoice === 'water') {
+    imageContainer2.innerHTML = `<img src="assets/photos/water.jpg" alt="water image" style="width: 200px; height: 150px;">`
+  } else if (userChoice === 'fire') {
+    imageContainer2.innerHTML = `<img src="assets/photos/fire.jpg" alt="fire image" style="width: 200px; height: 150px;">`
+  } else {
+    imageContainer2.innerHTML = ''
+  }
+}
+// adding an image on the choice
