@@ -76,11 +76,11 @@ function updateScore() {
 
 function compChoiceImage() {
   if (computerChoice === 'earth') {
-    imageContainer.innerHTML = `<img src="assets/photos/earth.jpg" alt="earth image" style="width: 200px; height: 150px;">`
+    imageContainer.innerHTML = `<img src="assets/photos/earth2.jpg" alt="earth2 image" style="width: 200px; height: 150px;">`
   } else if (computerChoice === 'water') {
-    imageContainer.innerHTML = `<img src="assets/photos/water.jpg" alt="water image" style="width: 200px; height: 150px;">`
+    imageContainer.innerHTML = `<img src="assets/photos/water2.jpg" alt="water2 image" style="width: 200px; height: 150px;">`
   } else if (computerChoice === 'fire') {
-    imageContainer.innerHTML = `<img src="assets/photos/fire.jpg" alt="fire image" style="width: 200px; height: 150px;">`
+    imageContainer.innerHTML = `<img src="assets/photos/fire2.jpg" alt="fire2 image" style="width: 200px; height: 150px;">`
   } else {
     imageContainer.innerHTML = ''
   }
