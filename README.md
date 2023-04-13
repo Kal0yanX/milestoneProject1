@@ -2,7 +2,7 @@
 
 <p>"Elemental Attack Game" is an interactive game using HTML, CSS and Javascript for the Milestone Project 1 at NCSU</p>
 
-<p>A game of rock, paper, and scissors however instead of using the traditional model, basic earth, fire, and water elements of many traditional RPG's were used instead.  Credits go to VectorStock.com and pexels.com for images.  Inspiration for this game was based on freeCodeCamp youtuber Ania Kubów for initial rock, paper, scissors tutorial, </p>
+<p>A game of rock, paper, and scissors however instead of using the traditional model, basic earth, fire, and water elements of many traditional RPG's were used instead.  Credits go to VectorStock.com and Pexels.com for images.  Inspiration for this game was based on freeCodeCamp youtuber Ania Kubów for initial rock, paper, scissors tutorial.</p>
 
 <h2>How to Play</h2>
 <p>Choose which element you wish to attack the computer with using the buttons provided below.  Elements are either "earth", "fire", or "water".  Just as many RPG games are, "earth" is weak to "water", but strong against "fire", "fire" is weak to "water", but strong against "earth", and "water" is weak to "earth", but strong against "fire".</p>
