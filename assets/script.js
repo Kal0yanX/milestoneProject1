@@ -11,6 +11,7 @@ let wins = 0
 let losses = 0
 let draws = 0
 
+//adding an event Listener for the 'click' option
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id
   userChoiceDisplay.innerHTML = userChoice
@@ -21,6 +22,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   userChoiceImage()
 }))
 
+//creating a computer choice using Math.random
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3) + 1
 
@@ -38,6 +40,7 @@ function generateComputerChoice() {
   computerChoiceDisplay.innerHTML = computerChoice
 }
 
+//getting the result of each decision function
 function getResult () {
   if (computerChoice === userChoice) {
     result = 'Its a draw!'
@@ -47,7 +50,7 @@ function getResult () {
     result = 'You lost!'
     losses++
   }
-  if (computerChoice === 'earth' && userChoice === "air") {
+  if (computerChoice === 'earth' && userChoice === "fire") {
     result = 'You win!'
     wins++
   }
@@ -70,10 +73,12 @@ function getResult () {
   resultDisplay.innerHTML = result
 }
 
+//updating the score
 function updateScore() {
   scoreboard.innerHTML = `Wins: ${wins} Losses: ${losses} Draws: ${draws}`
 }
 
+// adding an image on the computers choice
 function compChoiceImage() {
   if (computerChoice === 'earth') {
     imageContainer.innerHTML = `<img src="assets/photos/earth2.jpg" alt="earth2 image" style="width: 200px; height: 150px;">`
@@ -86,6 +91,7 @@ function compChoiceImage() {
   }
 }
 
+//adding an image on the users choice
 function userChoiceImage() {
   if (userChoice === 'earth') {
     imageContainer2.innerHTML = `<img src="assets/photos/earth.jpg" alt="earth image" style="width: 200px; height: 150px;">`
@@ -97,4 +103,4 @@ function userChoiceImage() {
     imageContainer2.innerHTML = ''
   }
 }
-// adding an image on the choice
+
