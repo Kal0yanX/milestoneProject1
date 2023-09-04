@@ -1,0 +1,54 @@
+// _layout.scss
+@import 'variables';
+@import 'btnConfig';
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    background-color: $background-color;
+    text-align: center;
+    color: $primary-color
+}
+
+.container {
+    max-width: 389px;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    position: relative; /* Add this */
+    z-index: 1; /* Add this to ensure it's above the background */
+  }
+  
+  #computer-choice {
+    background-color: $primary-color;
+    position: absolute;
+    float: right;
+    left: 75%;
+    top: 5%;
+    z-index: 2; /* Add this to ensure it's above the container */
+
+    }
+  
+  #user-choice {
+    background-color: $primary-color;
+    position: absolute;
+    left: 19%;
+    bottom: 14%;
+    z-index: 2; /* Add this to ensure it's above the container */
+
+  }
+  
+  .user-pic {
+    position: absolute;
+    left: 37%;
+    bottom: 17%;
+    z-index: 2; /* Add this to ensure it's above the container */
+  }
+  
+  .comp-pic {
+    position: absolute;
+    left: 12%;
+    top: 10%;
+    z-index: 2; /* Add this to ensure it's above the container */
+  }
+  

@@ -1,0 +1,189 @@
+.header {
+  background-color: #29333d;
+}
+
+.header {
+  background-color: #29333d;
+}
+
+button, button .btn-primary, button .btn-primary, button .btn-primary .btn-primary {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 2px 2px 0;
+  border: 0.1em solid #000000;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.15s;
+}
+button:hover, button .btn-primary:hover {
+  transform: scale(1.4);
+}
+button .btn-primary, button .btn-primary .btn-primary {
+  color: #036;
+}
+@media all and (max-width: 30em) {
+  button a.button, button .btn-primary a.button {
+    display: block;
+    margin: 0.4em auto;
+    text-align: center;
+  }
+}
+
+.header {
+  background-color: #29333d;
+}
+
+.header {
+  background-color: #29333d;
+}
+
+button, button .btn-primary, button .btn-primary, button .btn-primary .btn-primary {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 2px 2px 0;
+  border: 0.1em solid #000000;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.15s;
+}
+button:hover, button .btn-primary:hover {
+  transform: scale(1.4);
+}
+button .btn-primary, button .btn-primary .btn-primary {
+  color: #036;
+}
+@media all and (max-width: 30em) {
+  button a.button, button .btn-primary a.button {
+    display: block;
+    margin: 0.4em auto;
+    text-align: center;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 389px;
+  align-content: center;
+  align-self: center;
+  margin: auto;
+  position: relative; /* Add this */
+  z-index: 1; /* Add this to ensure it's above the background */
+}
+
+#computer-choice {
+  background-color: #ffffff;
+  position: absolute;
+  float: right;
+  left: 75%;
+  top: 5%;
+  z-index: 2; /* Add this to ensure it's above the container */
+}
+
+#user-choice {
+  background-color: #ffffff;
+  position: absolute;
+  left: 19%;
+  bottom: 14%;
+  z-index: 2; /* Add this to ensure it's above the container */
+}
+
+.user-pic {
+  position: absolute;
+  left: 37%;
+  bottom: 17%;
+  z-index: 2; /* Add this to ensure it's above the container */
+}
+
+.comp-pic {
+  position: absolute;
+  left: 12%;
+  top: 10%;
+  z-index: 2; /* Add this to ensure it's above the container */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #000000;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h1, h2 {
+  font-family: "Arial", sans-serif;
+}
+
+@media all and (max-width: 30em) {
+  a.button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+img {
+  height: 600px;
+}
+
+#water {
+  background-color: #6fedf9;
+  color: black;
+  color: #0004f9;
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+}
+
+#earth {
+  background-color: #f6c343;
+  color: black;
+  color: #33cc33;
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+}
+
+#fire {
+  background-color: #ff3939;
+  color: black;
+  color: #ffcc00;
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+}
+
+#computer-choice,
+#user-choice {
+  color: #036;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container {
+  padding: 20px;
+}
+.container .user-pic {
+  background-color: #ffffff;
+}
+.container .comp-pic {
+  background-color: #036;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

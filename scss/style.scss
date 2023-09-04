@@ -1,0 +1,87 @@
+//style.scss
+@import 'variables';
+@import 'btnConfig';
+@import 'layout';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: $background-color;
+  color: text-color-picker($background-color);
+}
+
+h1 {
+    font-size: $heading-1-size;
+}
+
+h2 {
+    font-size: $heading-2-size;
+}
+
+h3 {
+    font-size: $heading-3-size;
+}
+
+h1, h2 {
+  font-family: $heading-font-family;
+}
+
+@media all and (max-width: 30em) {
+    a.button {
+      display: block;
+      margin: 0.4em auto;
+    }
+  }
+
+img {
+  height: 600px;
+}
+button {
+    @extend %btn;
+  }
+
+
+#water {
+    @include set-bg(#6fedf9);
+    color: $water-color;
+    font-family: $button-family
+  }
+  
+  #earth {
+    @include set-bg(#f6c343);
+    color: $earth-color;
+    font-family: $button-family
+  }
+  
+  #fire {
+    @include set-bg(#ff3939);
+    color: $fire-color;
+    font-family: $button-family
+  }
+
+#computer-choice,
+#user-choice {
+  color: $secondary-color; 
+  padding: 10px;
+  margin: 5px
+  
+}
+
+.container {
+  padding: 20px;
+
+  & .user-pic {
+    background-color: $primary-color;
+  }
+
+  & .comp-pic {
+    background-color: $secondary-color;
+  }
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+  }
+
+  
